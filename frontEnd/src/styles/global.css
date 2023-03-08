@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #0F172A;
+    color:#CBD5E1;
+}
+
+.container{
+    height: calc(100% - 56px);
+    width: 100vw;
+}
+.navbar{
+    background: #426ac6!important;
+}
+
+.mobile{
+    /*background: #0F172A;*/
+    background: #64748B;
+    color: #CBD5E1
+}

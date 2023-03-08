@@ -1,0 +1,46 @@
+.login-container, .register-container{
+    text-align: center;
+    width: 70vw;
+    height: calc(100vh - 90px);
+    margin: -5% auto;
+    display: flex;
+    padding-top: -5%;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    color: #B8BFC6;
+}
+
+form.login, form.register{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+    text-align: left;
+    gap: 10px;
+}
+
+form.login input, form.register input{
+    height: 40px;
+    padding: 5px;
+}
+
+button[type="submit"]{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+@media (max-width: 768px){
+    .login-container, .register-container{
+        width: 100vw;
+    }
+    form.login, form.register{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin: 0 auto;
+        text-align: left;
+        gap: 10px;
+    }
+}
